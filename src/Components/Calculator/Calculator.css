@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #C5E4E7;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+.image{
+    margin-bottom: 40px;
+    margin-left: 144px;
+}
+.card{
+border-radius: 25px 25px 0px 0px;
+background: #FFF;
+box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+width: 375px;
+height: 789px;
+}
+.bill{
+    color: #5E7A7D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 32px;
+    margin-left: 32px
+}
+.bill-input{
+        width: 311px;
+        height: 48px;
+        border-radius: 5px;
+        background: #F3F9FA;
+        border: none;
+        margin-top: 6px;
+        margin-left: 32px;
+        position: relative;
+}
+.numberInput{
+    width:100%;
+    height:100%;
+    border: none;
+    border-radius: 5px;
+    background: #F3F9FA;
+    text-align:right;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: -136px;
+    padding-right: 15px;
+    position: relative;
+}
+.dollar{
+    position: absolute;
+    top: 36%;
+    right: 89%;
+    }
+    .bill-input .numberInput::-webkit-inner-spin-button,
+    .bill-input .numberInput::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+.select-tip{
+        color: #5E7A7D;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 32px;
+        margin-left: 15px
+}
+.select{
+    margin-left: 18px;
+}
+.tips{
+    width: 146px;
+    height: 48px;
+    border-radius: 5px;
+    background: #00474B;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border:none;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.custom{
+    width: 146px;
+    height: 48px;
+    border-radius: 5px;
+    background: #F3F9FA;
+    border:none;
+    color: #547878;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Space Mono';
+    margin-left: 16px;
+    
+    }
+    .custom::-webkit-inner-spin-button,
+    .custom::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .people{
+        color: #5E7A7D;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 38px;
+        margin-left:32px;
+        
+        }
+        .people-input{
+        width: 311px;
+        height: 48px;
+        border-radius: 5px;
+        background: #F3F9FA;
+        border: none;
+        margin-top: 6px;
+        margin-left: 32px;
+        position: relative;
+        }
+       .inputForPeople{
+        width:100%;
+        height:100%;
+        border: none;
+        border-radius: 5px;
+        background: #F3F9FA;
+        text-align:right;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-right: 15px;
+        position: relative;
+        }   
+         .inputForPeople:focus{
+            outline: none;
+        }
+        .person{
+            position: absolute;
+            right: 89%;
+            bottom: 33%;
+        }
+        .people-input .inputForPeople::-webkit-inner-spin-button,
+        .people-input .inputForPeople::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        } 
+        .error{
+            display: none;
+            color: #E17457;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            position: absolute;
+            margin-top: -23px;
+                margin-left: 212px
+            }
+        .last-part{
+            width: 327px;
+            height: 257px;
+            border-radius: 15px;
+            background: #00474B;
+            margin-top: 32px;
+            margin-left: 24px
+        }
+        .last-part p{
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-left:24px;
+            }
+            .tip-amount{
+                padding-top:39px;
+            }
+            .total-amount{
+                margin-top: -30px;
+            }
+            p span{
+                color: #7F9D9F;
+                font-size:13px;
+            }
+            .number{
+                color: #26C2AE;
+                text-align: right;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.667px;
+                transform: translate(-20px, -52px);
+            }
+            .btn{
+            width: 281px;
+            height: 48px;
+            border-radius: 5px;
+            background: #26C2AE;
+            border:none;
+            color: #00474B;
+            text-align: center;
+            font-family: Space Mono;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: -18px;
+            margin-left: 22px;
+            }
+            .border-error {
+                outline: 2px solid #E17052;
+              }
+
+            @media(min-width:1440px){
+                .image{
+                    margin-bottom: 47px;
+                    margin-left: 410px;
+                }
+                .card{
+                width: 920px;
+                height: 481px;
+                border-radius: 25px;
+                position: relative;
+                }
+                .bill{
+                    margin-top:45px;
+                    margin-left:48px;
+                }
+                .bill-input{
+                    width: 379px;
+                    margin-left:48px;
+                }
+                .select{
+                    width: 400px;
+                    margin-left: 35px;
+                }
+                .select-tip{
+                    margin-top:40px;
+                    margin-left: 17px;
+                }
+                .tips{
+                    width:117px;
+                    margin-left:14px;
+                }
+                .custom{
+                    width:117px;
+                    
+                }
+                .people{
+                margin-top: 40px;
+                margin-left: 48px
+                }
+                .people-input{
+                    margin-left: 48px; 
+                    width:379px;
+                }
+                .last-part{
+                    width: 413px;
+                  height: 417px;
+                  display: flex;
+                  flex-direction: column;
+                position: absolute;
+                top: 0%;
+                left: 50%
+                }
+                .tip-amount{
+                    padding-top: 56px;
+                    padding-left: 40px
+                    }
+                    .total-amount{
+                        padding-top: 33px;
+                    }
+                    .number{
+                        font-size:48px;
+                        letter-spacing: -1px;
+                        transform: translate(-40px, -65px);
+                    }
+                    .btn{
+                        width: 333px;
+                        height: 48px;
+                        background: #26C2AE;
+                         margin: 40px;
+                    }
+                    .error{
+                        display: none;
+                       
+                            margin-left: 295px;
+                        }
+                   
+            }           
+            .numberInput:hover {
+                cursor:pointer;
+                 outline: 2px solid #26C2AE;
+                }
+                    
+                .custom:hover{
+                cursor: pointer;
+                outline: 2px solid #26C2AE;
+                background: #F3F9FA;
+                }
+                .btn:hover{
+                cursor: pointer;
+                background: #9FE8DF;
+                }
+                .tips:hover{
+                cursor: pointer;
+                background: #9FE8DF;
+                }
+                
